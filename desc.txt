@@ -1,0 +1,14 @@
+在html中直接引用编译后的**.css文件放于D:\study\sass\cssStyle\**.css
+firstDemo.html文件中引用
+<link rel="stylesheet" type="text/css" href="../cssStyle/firstDemo.css">
+
+将编写的**.scss文件放于D:\study\sass\sassStyle\**.scss
+编写firstDemo.scss
+
+编译文件sassStyle/firstDemo.scss生成cssStyle/firstDemo.css
+打开命令终端（sass按照成功的情况下）
+
+C:\Users\gaona02>d:
+D:\>cd D:\study\sass
+D:\study\sass>sass --watch sassStyle/firstDemo.scss:cssStyle/firstDemo.css
+成功后 ctrl+c

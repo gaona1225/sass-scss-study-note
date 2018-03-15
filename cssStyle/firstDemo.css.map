@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AAIA,WAAW;EACV,KAAK,EAJO,GAAG;EAKf,SAAS,EAJE,IAAI",
+"sources": ["../sassStyle/firstDemo.scss"],
+"names": [],
+"file": "firstDemo.css"
+}

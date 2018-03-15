@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>firstDemo</title>
+<link rel="stylesheet" type="text/css" href="../cssStyle/3drun.css">
+</head>
+<body>
+	<div id="marquee">
+	    <div><span>STAY INDOORS: ZOMBIE OUTBREAK</span></div>
+	    <div aria-hidden="true"><span>STAY INDOORS: ZOMBIE OUTBREAK</span></div>
+	</div>
+	<form onsubmit="setText(event)">
+	  	<label for="textsource">Source text</label>
+		<input type="text" id="textsource" value="STAY INDOORS: ZOMBIE OUTBREAK" autocapitalize="characters" pattern=".{5,30}" title="Text must be 5 to 30 characters in length">
+		<input type="submit" value="Use">
+	</form>
+</body>
+</html>
